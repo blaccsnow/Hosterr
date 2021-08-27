@@ -1,0 +1,226 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body {
+ background-color:#fbf7ed;
+}
+
+#container {
+ min-height:100%;
+}
+
+#head-section {
+ display:flex;
+ width:100%;
+ justify-content:space-between;
+ padding:20px 30px;
+}
+
+#logo-section {
+ display:flex;
+}
+
+#logo-section #hire-btn {
+ padding:7px;
+ color:#fff;
+ border-radius:30px;
+ border:1px solid #f7bb85;
+ background-image: linear-gradient(to right, #f7bb85, #f76150);
+ font-size:15px;
+}
+
+#logo-image {
+ margin-right:10px;
+}
+
+#middle-head {
+ display:none;
+}
+
+#middle-head p {
+ padding:0 10px;
+}
+
+#menu-section {
+ display:flex;
+ padding-top:5px;
+}
+
+#menu-section span {
+ display:none;
+}
+
+#menu-section span p {
+ padding-top:17px;
+}
+
+#head-btn {
+ width:120px;
+ padding:20px 0;
+ background-color:#5c93d2;
+ color:#fff;
+ font-weight:bold;
+ border:1px solid #5c93d2;
+ border-radius:5px;
+ margin-left:20px;
+ outline:none;
+ font-size:20px;
+}
+
+#section-one {
+ width:100%;
+ text-align:center;
+ margin:60px 0;
+}
+
+#hero-img {
+ width:100%;
+}
+
+#section-two {
+ max-width:90%;
+ margin:auto;
+}
+
+#section-two h2 {
+ font-size:55px;
+ max-width:80%;
+ }
+
+#section-two p {
+ color:#555;
+ font-size:23px;
+ margin:25px 0;
+}
+
+#mail-div {
+ max-width:100%;
+ margin:auto;
+}
+
+#mail {
+ width:100%;
+ padding:20px 0 20px 30px;
+ border-radius:5px;
+ border:1px solid #111;
+ margin-bottom:15px;
+ outline:none;
+}
+
+#mail-btn {
+ width:100%;
+ border-radius:5px;
+ border:1px solid #5c93d2;
+ background-color:#5c93d2;
+ color:#fff;
+ padding:15px 0;
+ font-weight:bold;
+ font-size:20px;
+ outline:none;
+}
+
+#check-div {
+ display:flex;
+}
+
+#check {
+ margin-right:10px;
+}
+
+#footer-section {
+ max-width:90%;
+ margin:auto;
+ margin-top:40px;
+}
+
+#socials {
+ display:flex;
+ margin-bottom:40px;
+}
+
+#socials p {
+ padding-right:10px;
+ font-size:25px;
+ color:#555;
+}
+
+#specialist-div {
+ display:flex;
+ font-size:22px;
+ color:#555;
+}
+
+strong {
+ color:#111;
+}
+
+#help {
+ margin-right:10px;
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 769px) {
+ #container {
+  padding:0 70px;
+  max-width:100%;
+ }
+
+ #middle-head {
+  display:flex;
+  padding-top:23px;
+ }
+
+ #menu-section span {
+  display:flex;
+ }
+
+ #menu-img {
+  display:none;
+ }
+
+ #logo-section #hire-btn {
+  display:none;
+ }
+
+ #flex-first {
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content:space-between;
+  margin:50px 0;
+  max-width:100%;
+ }
+
+ #section-one {
+  margin:0;
+  width:30%;
+ }
+
+ #hero-img {
+  margin-left:50px;
+  width:500px;
+ }
+
+ #mail-div {
+  display:flex;
+  margin:0;
+ }
+
+ #mail {
+  width:65%;
+  margin-right:10px;
+ }
+
+ #mail-btn {
+  width:35%;
+  padding:0;
+ }
+
+ #head-section {
+  padding:20px 0;
+ }
+
+ 
+}
